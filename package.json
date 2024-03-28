@@ -1,0 +1,39 @@
+{
+  "name": "react-shared-query-state",
+  "version": "1.0.0",
+  "description": "A custom hooks that is derived from React.useState. This hook store state in the browser URL as search params. The state is share across the application and sync to each other a long as the correct key is provided.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ReactJS",
+    "Hooks",
+    "URL Query Search Params"
+  ],
+  "author": "Wave Ambray",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.22",
+    "enzyme": "^3.11.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
