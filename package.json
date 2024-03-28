@@ -1,6 +1,6 @@
 {
   "name": "react-shared-query-state-2",
-  "version": "1.0.2-2",
+  "version": "1.0.2-3",
   "description": "A custom hooks that is derived from React.useState hook. This hook stores the state in the browser URL as search params. The state is shared across the application and sync to each other as long as the correct key is provided.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -9,6 +9,11 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wacanam/react-shared-query-state.git"
+  },
+  "homepage": "https://github.com/wacanam/react-shared-query-state?tab=readme-ov-file#react-shared-query-state",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup",
