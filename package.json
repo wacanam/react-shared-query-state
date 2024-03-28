@@ -1,7 +1,7 @@
 {
-  "name": "react-shared-query-state",
-  "version": "1.0.0",
-  "description": "A custom hooks that is derived from React.useState. This hook store state in the browser URL as search params. The state is share across the application and sync to each other a long as the correct key is provided.",
+  "name": "react-shared-query-state-2",
+  "version": "1.0.2-2",
+  "description": "A custom hooks that is derived from React.useState hook. This hook stores the state in the browser URL as search params. The state is shared across the application and sync to each other as long as the correct key is provided.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
